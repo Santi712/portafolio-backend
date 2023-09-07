@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}POP!{% endblock %}
+
+{% block body %}
+<style>
+body {
+            background-color: #0d1b2a;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .example-wrapper {
+            margin: 1em auto;
+            max-width: 800px;
+            width: 95%;
+            font: 18px/1.5 sans-serif;
+            text-align: center;
+        }
+        
+        .example-wrapper code {
+            background: #F5F5F5;
+            padding: 2px 6px;
+        }
+        
+        .btn {
+            background-color: orange;
+            color: white;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 4px;
+        }</style>
+
+<div class="example-wrapper">
+    <h1>Hi, ¡{{ controller_name }}! ✅</h1>
+    <p>I invite you to access my Portfolio and immerse yourself a bit in my interactive world and see the things that I am capable of doing.</p>
+    <a href="http://localhost:5173/" target="_blank" class="btn btn-primary">Enter the world</a>
+</div>
+{% endblock %}

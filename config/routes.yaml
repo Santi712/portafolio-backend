@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+registro:
+    path: /registro
+    controller: App\Controller\RegistroController::index
+
